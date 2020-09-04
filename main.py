@@ -2,7 +2,7 @@ from pictureLoader import PictureLoader
 from param import Param
 from circle import Circle
 
-pics = PictureLoader('C:\\Users\\makayser\\OneDrive\\DSVM\\Projects\\1701 Audi\\CV_WheelStationary\\damage').load()
+pics = PictureLoader('path').load()
 
 counter = 0
 for pic in pics:
